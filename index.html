@@ -1,0 +1,18 @@
+<html>
+    <head>
+    </head>
+    <body>
+        이건 메인 페이지 에요..
+        <br>
+
+        <img src="{{url_for('static', filename='image/img1.jpg')}}" />
+
+        <br>
+        <form action="/search" method="POST" encType="multipart/form-data">
+            <input type="text" name="queryText"/>
+            <input type="submit" name="searchButton" value="검색하기"/>
+        </form>
+
+    </body>
+
+</html>
